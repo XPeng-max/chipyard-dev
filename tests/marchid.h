@@ -1,5 +1,6 @@
 #ifndef MARCHID_H
 #define MARCHID_H
+#include <stddef.h>
 
 const char* get_march(size_t marchid) {
   switch (marchid) {
